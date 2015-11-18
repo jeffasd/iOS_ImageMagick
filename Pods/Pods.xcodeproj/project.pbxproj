@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E579FF358AF2261C8682A7FA383EAA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		B991A49F4C12A4F8462C02B69D83DB11 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		008262BB9FC296B4517CA9BD8736C44D /* jerror.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jerror.h; path = include/jpeg/jerror.h; sourceTree = "<group>"; };
+		00BF4E2C5D434AD5BC23E68753C8C6A7 /* geometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = geometry.h; path = include/magick/geometry.h; sourceTree = "<group>"; };
+		00DAB0E97155401A41A7A96FA3C09FA6 /* feature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = feature.h; path = include/magick/feature.h; sourceTree = "<group>"; };
+		02DF96D12A5B77CEFB34C5F9CDF3B65B /* xwindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xwindow.h; path = include/magick/xwindow.h; sourceTree = "<group>"; };
+		02F83F1D6A0D8597387B82013CEB527A /* mogrify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mogrify.h; path = include/wand/mogrify.h; sourceTree = "<group>"; };
+		04D99C9021835CCF0AD07DFB80EEA655 /* attribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = attribute.h; path = include/magick/attribute.h; sourceTree = "<group>"; };
+		0816DEFB800C6A38FE81F4D13B4D776C /* pixel-wand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "pixel-wand.h"; path = "include/wand/pixel-wand.h"; sourceTree = "<group>"; };
+		0D7D4AA701A53D94577C3F5BA2AC55FB /* pixel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pixel.h; path = include/magick/pixel.h; sourceTree = "<group>"; };
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		12F26884E4F1FF60C6BF1E2B3F2AC766 /* magick_wand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = magick_wand.h; path = include/wand/magick_wand.h; sourceTree = "<group>"; };
+		12FDFAD240447A419EF9DB0B9829D30F /* policy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = policy.h; path = include/magick/policy.h; sourceTree = "<group>"; };
+		13A9FE6D73E15969C2678C356949D6F9 /* composite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = composite.h; path = include/wand/composite.h; sourceTree = "<group>"; };
+		1540E5EB60CF7C9E63938A1B945DAF74 /* draw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = draw.h; path = include/magick/draw.h; sourceTree = "<group>"; };
+		17571E90CE8469D6E16ECE7F48818AFD /* threshold.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = threshold.h; path = include/magick/threshold.h; sourceTree = "<group>"; };
+		17F8180D05170EF5536CC7253A23587A /* compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = compare.h; path = include/wand/compare.h; sourceTree = "<group>"; };
+		18E667FB4DD4AD4F3D745AEBA958DFA1 /* xml-tree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "xml-tree.h"; path = "include/magick/xml-tree.h"; sourceTree = "<group>"; };
+		1922115A517C07585BF4A76C1D250D9F /* property.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = property.h; path = include/magick/property.h; sourceTree = "<group>"; };
+		1986D8BDB065ABDFA55BE0D0E7B4F0BA /* registry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = registry.h; path = include/magick/registry.h; sourceTree = "<group>"; };
+		1B3C99DC0C1A26E03FE87A54CB60312D /* magic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = magic.h; path = include/magick/magic.h; sourceTree = "<group>"; };
+		1C10CBC43CDD2ACD30FCBF5C93D48B61 /* option.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = option.h; path = include/magick/option.h; sourceTree = "<group>"; };
+		1DAF8A94FC0CCC67189B2E08B4DE55D1 /* resample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resample.h; path = include/magick/resample.h; sourceTree = "<group>"; };
+		1E5406C657D715AD3FA9F71A60388ECA /* random_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = random_.h; path = include/magick/random_.h; sourceTree = "<group>"; };
+		214FA861EBF742B62EC4D2670760CE17 /* quantize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = quantize.h; path = include/magick/quantize.h; sourceTree = "<group>"; };
+		22A99CC68234C0EB0F8850C020DFCB48 /* signature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = signature.h; path = include/magick/signature.h; sourceTree = "<group>"; };
+		22D39C2EF4EF57397C8A4997B66B9972 /* color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = color.h; path = include/magick/color.h; sourceTree = "<group>"; };
+		22E71326A88906D915C7F8C0768A4F5F /* enhance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = enhance.h; path = include/magick/enhance.h; sourceTree = "<group>"; };
+		251B964CFD771BF18C633FA4B099D358 /* montage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = montage.h; path = include/magick/montage.h; sourceTree = "<group>"; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		2A41FE3EFA9FF53ED7BD03B7D12A9108 /* mime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mime.h; path = include/magick/mime.h; sourceTree = "<group>"; };
+		2B092FD16965CC1F9EAF485D649CB7DD /* cache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cache.h; path = include/magick/cache.h; sourceTree = "<group>"; };
+		2F7FF32C6D5FA7B6EC5FA55BEEF326CC /* splay-tree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "splay-tree.h"; path = "include/magick/splay-tree.h"; sourceTree = "<group>"; };
+		3237DEF141D0A328D52CD6883B891917 /* layer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = layer.h; path = include/magick/layer.h; sourceTree = "<group>"; };
+		3331C8A2EB057CCE6780AAC7262C3BDE /* paint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = paint.h; path = include/magick/paint.h; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A10DD73044F6E85C191EDB2584D53F1 /* PreRvIcccm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PreRvIcccm.h; path = include/magick/PreRvIcccm.h; sourceTree = "<group>"; };
+		3BE39EB08AC521A3F14AD23F3202F67D /* pngconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pngconf.h; path = include/png/pngconf.h; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FECDEA1630CAA7DA8FFEF872AABEF0B /* prepress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = prepress.h; path = include/magick/prepress.h; sourceTree = "<group>"; };
+		412581C2136C5FD8BE1C3039045A8F0F /* matrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = matrix.h; path = include/magick/matrix.h; sourceTree = "<group>"; };
+		4558965C6F44285EA5809C9206FFBD5B /* display.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = display.h; path = include/magick/display.h; sourceTree = "<group>"; };
+		455E06D5E297E76D31A583981C421900 /* type.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = type.h; path = include/magick/type.h; sourceTree = "<group>"; };
+		471A34E7F8C0E3DBE80C84B8AB81DA96 /* magick-config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "magick-config.h"; path = "include/magick/magick-config.h"; sourceTree = "<group>"; };
+		47CB066E0C6151C5AF8E4DE7FF2DDA5F /* drawing-wand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "drawing-wand.h"; path = "include/wand/drawing-wand.h"; sourceTree = "<group>"; };
+		4994AD4E49BBA5CD94B363123FD46786 /* tiffvers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiffvers.h; path = include/tiff/tiffvers.h; sourceTree = "<group>"; };
+		4AA262B96E5045840BD8013517FD0CCF /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = include/magick/version.h; sourceTree = "<group>"; };
+		4DA00407798757248588955EC0CB6FED /* fx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fx.h; path = include/magick/fx.h; sourceTree = "<group>"; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		4F1619988B1FED455CD1BB9D5E128A1A /* memory_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = memory_.h; path = include/magick/memory_.h; sourceTree = "<group>"; };
+		50A543ADAE388B23DD1D10F2A9044F48 /* pixel-iterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "pixel-iterator.h"; path = "include/wand/pixel-iterator.h"; sourceTree = "<group>"; };
+		54487530F43A5F8D13348475C8C506F5 /* magick-image.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "magick-image.h"; path = "include/wand/magick-image.h"; sourceTree = "<group>"; };
+		5454B773CE145291977B8392342C64E0 /* profile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = profile.h; path = include/magick/profile.h; sourceTree = "<group>"; };
+		55CE329C1893281D56C97DA7B8DDE9AB /* tiffconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiffconf.h; path = include/tiff/tiffconf.h; sourceTree = "<group>"; };
+		572136C54EE73553DEC6A23256776AE8 /* stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stream.h; path = include/magick/stream.h; sourceTree = "<group>"; };
+		58B3099CDEC6963FCADA9570F060F0AA /* identify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = identify.h; path = include/wand/identify.h; sourceTree = "<group>"; };
+		5B9DABDECA6E937D26C5D5F3BE0C334F /* fourier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fourier.h; path = include/magick/fourier.h; sourceTree = "<group>"; };
+		5BD5FBC46E4DD153D080E19148430DF3 /* colorspace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = colorspace.h; path = include/magick/colorspace.h; sourceTree = "<group>"; };
+		5E56823875AD465CAE7A5CD9BE4FF7FD /* utility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utility.h; path = include/magick/utility.h; sourceTree = "<group>"; };
+		5E85A3FB4D2E70829E29D4B7D499B2BD /* client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = client.h; path = include/magick/client.h; sourceTree = "<group>"; };
+		5F0C9A359D77F87B511D9B7E32CD30A4 /* pnglibconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pnglibconf.h; path = include/png/pnglibconf.h; sourceTree = "<group>"; };
+		60E0C1D550E307C8E2AF9DD56978DF00 /* tiff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiff.h; path = include/tiff/tiff.h; sourceTree = "<group>"; };
+		67C5CC6337B50A391905BA70765A1703 /* constitute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = constitute.h; path = include/magick/constitute.h; sourceTree = "<group>"; };
+		686CA21F68291AF4AF7BD125A15D26F3 /* blob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blob.h; path = include/magick/blob.h; sourceTree = "<group>"; };
+		6905BB79CC25771053A28606B03D088E /* channel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = channel.h; path = include/magick/channel.h; sourceTree = "<group>"; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		6BF7BC98FD5DF4717BCF81B4DABE7B6B /* studio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = studio.h; path = include/magick/studio.h; sourceTree = "<group>"; };
+		6BFB055F93DB9310D3E93C045F4391D1 /* gem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gem.h; path = include/magick/gem.h; sourceTree = "<group>"; };
+		6D8B5C6AE081863F31AE2449EA336FC6 /* cipher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cipher.h; path = include/magick/cipher.h; sourceTree = "<group>"; };
+		6EFDEC2448F953286C3FD1AC8980519A /* convert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = convert.h; path = include/wand/convert.h; sourceTree = "<group>"; };
+		70966A8192F3B3C96456A780420A3C91 /* MagickCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagickCore.h; path = include/magick/MagickCore.h; sourceTree = "<group>"; };
+		75F7D13A9F1B3F7FB6591BC7685A0193 /* montage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = montage.h; path = include/wand/montage.h; sourceTree = "<group>"; };
+		76065F364DDE2ADD5E1F174F4A3C1631 /* token.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = token.h; path = include/magick/token.h; sourceTree = "<group>"; };
+		780150746E6D4F9FF150146842F2B50C /* accelerate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = accelerate.h; path = include/magick/accelerate.h; sourceTree = "<group>"; };
+		7CC1034123045ADC1D00A3E82C45ED7A /* method-attribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "method-attribute.h"; path = "include/wand/method-attribute.h"; sourceTree = "<group>"; };
+		7CC74F2F9BDAFB476273F171AAD2CA72 /* api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = api.h; path = include/magick/api.h; sourceTree = "<group>"; };
+		80084E6CF261716BF0BDA18F6C1457C4 /* effect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = effect.h; path = include/magick/effect.h; sourceTree = "<group>"; };
+		82C2FB028410C5117FA08F39595D5390 /* morphology.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = morphology.h; path = include/magick/morphology.h; sourceTree = "<group>"; };
+		84DD1C62565E433B40F365ECF978C4E5 /* delegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = delegate.h; path = include/magick/delegate.h; sourceTree = "<group>"; };
+		85261682587AB090701F0DB2694D36B8 /* resize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resize.h; path = include/magick/resize.h; sourceTree = "<group>"; };
+		8755870CDB7AD8E853C8AFD062A2EB07 /* methods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = methods.h; path = include/magick/methods.h; sourceTree = "<group>"; };
+		8772C1CD8AC0B7F85C7211D08457423D /* jconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jconfig.h; path = include/jpeg/jconfig.h; sourceTree = "<group>"; };
+		8801116DE9B24B25BB6E49E826A2A3B2 /* annotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = annotate.h; path = include/magick/annotate.h; sourceTree = "<group>"; };
+		899BD27C177C77EA8E82EBBD940EDFBC /* hashmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hashmap.h; path = include/magick/hashmap.h; sourceTree = "<group>"; };
+		8B965972029DB9FC017784CFAEA0E4A6 /* tiffio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiffio.h; path = include/tiff/tiffio.h; sourceTree = "<group>"; };
+		937AD8016B7D9F1E708BD161E1599D12 /* compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = compare.h; path = include/magick/compare.h; sourceTree = "<group>"; };
+		93BF90BFFFEDE5CAC126D4147EBA29CE /* image.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = image.h; path = include/magick/image.h; sourceTree = "<group>"; };
+		953EE5DF83306D9FECD8B70058638E05 /* decorate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = decorate.h; path = include/magick/decorate.h; sourceTree = "<group>"; };
+		96FE9E2F9585DD7F5ACCDFC1E44A2E58 /* quantum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = quantum.h; path = include/magick/quantum.h; sourceTree = "<group>"; };
+		982B64A4330760E311E77A6A8B049B53 /* MagickWand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagickWand.h; path = include/wand/MagickWand.h; sourceTree = "<group>"; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		A1FA7088066BFDDA1ACC7F045B3FF261 /* coder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = coder.h; path = include/magick/coder.h; sourceTree = "<group>"; };
+		A2089FC00F984EB2FAE86DD82C79126B /* string_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = string_.h; path = include/magick/string_.h; sourceTree = "<group>"; };
+		A351C90768AF53C012CBCB92076FB43C /* conjure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conjure.h; path = include/wand/conjure.h; sourceTree = "<group>"; };
+		A402192684E1DEE6135CAD7D2BC41584 /* resource_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resource_.h; path = include/magick/resource_.h; sourceTree = "<group>"; };
+		A4A54D24877B51E1E8D55FBA941E882B /* list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = list.h; path = include/magick/list.h; sourceTree = "<group>"; };
+		AA530D86C06F40702858EDD27E72E156 /* magick-baseconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "magick-baseconfig.h"; path = "include/magick/magick-baseconfig.h"; sourceTree = "<group>"; };
+		AAC8361DF3A2ACC446980966D2903378 /* configure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = configure.h; path = include/magick/configure.h; sourceTree = "<group>"; };
+		ABBF6029BCEBC92BCA762C560D84FC4B /* import.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = import.h; path = include/wand/import.h; sourceTree = "<group>"; };
+		B1367E630A94D918FBBAEDD4A6741C57 /* colormap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = colormap.h; path = include/magick/colormap.h; sourceTree = "<group>"; };
+		B13D7AC682A621926F4EE9DCD21AAA72 /* pixel-accessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "pixel-accessor.h"; path = "include/magick/pixel-accessor.h"; sourceTree = "<group>"; };
+		B3855172CD8BCB220104CBBDAFF27E44 /* histogram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = histogram.h; path = include/magick/histogram.h; sourceTree = "<group>"; };
+		B3A976252CF24AE57E5A16C547D3DE18 /* wand-view.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "wand-view.h"; path = "include/wand/wand-view.h"; sourceTree = "<group>"; };
+		B40CF1D5C369D015AB0EFC264A2867A5 /* ImageMagick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ImageMagick.h; path = include/magick/ImageMagick.h; sourceTree = "<group>"; };
+		B44AF2948E590528841A9757B0A53383 /* opencl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opencl.h; path = include/magick/opencl.h; sourceTree = "<group>"; };
+		B53FF542D9F011C85B1455E4C174D693 /* semaphore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = semaphore.h; path = include/magick/semaphore.h; sourceTree = "<group>"; };
+		B721A85BFE8EEA5A378AE90E9B6C1D7F /* module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = module.h; path = include/magick/module.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDFAE8CCC3E6A276F01E8710F38EF4ED /* display.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = display.h; path = include/wand/display.h; sourceTree = "<group>"; };
+		BFDCEDF11CC5329E8A2F6885DA7FBE21 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C29B6156C42BAAE7860BB502481A586B /* timer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = timer.h; path = include/magick/timer.h; sourceTree = "<group>"; };
+		C68CD10C25CBBEEE64721DC2FCB14F1A /* jmorecfg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jmorecfg.h; path = include/jpeg/jmorecfg.h; sourceTree = "<group>"; };
+		C6E057229C41CF6A2475381CA5C074F0 /* statistic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = statistic.h; path = include/magick/statistic.h; sourceTree = "<group>"; };
+		C73D1DC77F01D14B4878F1B23E95FAF5 /* magick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = magick.h; path = include/magick/magick.h; sourceTree = "<group>"; };
+		C8422C5D05ED23C70483847AF58D6F79 /* animate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = animate.h; path = include/wand/animate.h; sourceTree = "<group>"; };
+		CD520CC2AAFC71F3103E27D029D076F8 /* distort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = distort.h; path = include/magick/distort.h; sourceTree = "<group>"; };
+		CE93969098D315E067777801B946A282 /* deprecate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = deprecate.h; path = include/wand/deprecate.h; sourceTree = "<group>"; };
+		D1251573577731BE3491E36966278CB2 /* deprecate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = deprecate.h; path = include/magick/deprecate.h; sourceTree = "<group>"; };
+		D2CF87B68A6B445B4CA047344CA7DFDC /* identify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = identify.h; path = include/magick/identify.h; sourceTree = "<group>"; };
+		D2EE40DCFC813D4C1314EB27E55DC87F /* image-view.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "image-view.h"; path = "include/magick/image-view.h"; sourceTree = "<group>"; };
+		D45AB5705938252A837CEC5BFB758F8B /* cache-view.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "cache-view.h"; path = "include/magick/cache-view.h"; sourceTree = "<group>"; };
+		D4B2E487CA9DC4B1A277759450112469 /* animate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = animate.h; path = include/magick/animate.h; sourceTree = "<group>"; };
+		D7F357D8230FCD9796762D6B3C1D1655 /* magick-wand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "magick-wand.h"; path = "include/wand/magick-wand.h"; sourceTree = "<group>"; };
+		D86AA7F550EAA0F895A059631B3CDBB9 /* stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stream.h; path = include/wand/stream.h; sourceTree = "<group>"; };
+		DB2C72D26D440F3055FA20F2BCAA252D /* magick-property.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "magick-property.h"; path = "include/wand/magick-property.h"; sourceTree = "<group>"; };
+		DFAF58F61EFC384ADCC4BCAC30A6712F /* monitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = monitor.h; path = include/magick/monitor.h; sourceTree = "<group>"; };
+		DFC7A9EFEEE00F47F5B829F271E2D1F3 /* jpeglib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jpeglib.h; path = include/jpeg/jpeglib.h; sourceTree = "<group>"; };
+		E163EF54C56A099E651DCA4FDDA35947 /* log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = log.h; path = include/magick/log.h; sourceTree = "<group>"; };
+		E2D3E7BBD3BBB8AFA205CBC3341DA285 /* widget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = widget.h; path = include/magick/widget.h; sourceTree = "<group>"; };
+		E9B806F6148C7C0960A91A813B4D647E /* exception.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = exception.h; path = include/magick/exception.h; sourceTree = "<group>"; };
+		E9EB0951DC205110A8880AFF1C07E34F /* transform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = transform.h; path = include/magick/transform.h; sourceTree = "<group>"; };
+		EEC4CB0E183CD9189516F041A49F2DBF /* compress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = compress.h; path = include/magick/compress.h; sourceTree = "<group>"; };
+		F36B238DBA906029306151BB9FBE24D1 /* artifact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = artifact.h; path = include/magick/artifact.h; sourceTree = "<group>"; };
+		F44B7AEA991A4F26C1AFC4F2FBEE42BA /* method-attribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "method-attribute.h"; path = "include/magick/method-attribute.h"; sourceTree = "<group>"; };
+		F59B162BBADD6DC7A051FD8655B2677D /* distribute-cache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "distribute-cache.h"; path = "include/magick/distribute-cache.h"; sourceTree = "<group>"; };
+		F7CBEC06E879E6807F0113EF20CF628E /* composite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = composite.h; path = include/magick/composite.h; sourceTree = "<group>"; };
+		F9895F094E21A9ADC1FF3D15FFA688C6 /* locale_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = locale_.h; path = include/magick/locale_.h; sourceTree = "<group>"; };
+		FA4EDBC5C0454462900966A007E9A758 /* shear.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = shear.h; path = include/magick/shear.h; sourceTree = "<group>"; };
+		FBCD941EA0A5CE473CB58D2EB29CABB8 /* magick-type.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "magick-type.h"; path = "include/magick/magick-type.h"; sourceTree = "<group>"; };
+		FDD1A294C20261F857C47DD29DC709C2 /* segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = segment.h; path = include/magick/segment.h; sourceTree = "<group>"; };
+		FE8DBBD943150A4C2DD4D7D23C345903 /* png.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = png.h; path = include/png/png.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E78C4AC537A1782BCFD134B2B8940E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E579FF358AF2261C8682A7FA383EAA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0E17644BE9D1C0580BE38A3A5E0DFB97 /* ImageMagick */ = {
+			isa = PBXGroup;
+			children = (
+				780150746E6D4F9FF150146842F2B50C /* accelerate.h */,
+				D4B2E487CA9DC4B1A277759450112469 /* animate.h */,
+				8801116DE9B24B25BB6E49E826A2A3B2 /* annotate.h */,
+				7CC74F2F9BDAFB476273F171AAD2CA72 /* api.h */,
+				F36B238DBA906029306151BB9FBE24D1 /* artifact.h */,
+				04D99C9021835CCF0AD07DFB80EEA655 /* attribute.h */,
+				686CA21F68291AF4AF7BD125A15D26F3 /* blob.h */,
+				2B092FD16965CC1F9EAF485D649CB7DD /* cache.h */,
+				D45AB5705938252A837CEC5BFB758F8B /* cache-view.h */,
+				6905BB79CC25771053A28606B03D088E /* channel.h */,
+				6D8B5C6AE081863F31AE2449EA336FC6 /* cipher.h */,
+				5E85A3FB4D2E70829E29D4B7D499B2BD /* client.h */,
+				A1FA7088066BFDDA1ACC7F045B3FF261 /* coder.h */,
+				22D39C2EF4EF57397C8A4997B66B9972 /* color.h */,
+				B1367E630A94D918FBBAEDD4A6741C57 /* colormap.h */,
+				5BD5FBC46E4DD153D080E19148430DF3 /* colorspace.h */,
+				937AD8016B7D9F1E708BD161E1599D12 /* compare.h */,
+				F7CBEC06E879E6807F0113EF20CF628E /* composite.h */,
+				EEC4CB0E183CD9189516F041A49F2DBF /* compress.h */,
+				AAC8361DF3A2ACC446980966D2903378 /* configure.h */,
+				67C5CC6337B50A391905BA70765A1703 /* constitute.h */,
+				953EE5DF83306D9FECD8B70058638E05 /* decorate.h */,
+				84DD1C62565E433B40F365ECF978C4E5 /* delegate.h */,
+				D1251573577731BE3491E36966278CB2 /* deprecate.h */,
+				4558965C6F44285EA5809C9206FFBD5B /* display.h */,
+				CD520CC2AAFC71F3103E27D029D076F8 /* distort.h */,
+				F59B162BBADD6DC7A051FD8655B2677D /* distribute-cache.h */,
+				1540E5EB60CF7C9E63938A1B945DAF74 /* draw.h */,
+				80084E6CF261716BF0BDA18F6C1457C4 /* effect.h */,
+				22E71326A88906D915C7F8C0768A4F5F /* enhance.h */,
+				E9B806F6148C7C0960A91A813B4D647E /* exception.h */,
+				00DAB0E97155401A41A7A96FA3C09FA6 /* feature.h */,
+				5B9DABDECA6E937D26C5D5F3BE0C334F /* fourier.h */,
+				4DA00407798757248588955EC0CB6FED /* fx.h */,
+				6BFB055F93DB9310D3E93C045F4391D1 /* gem.h */,
+				00BF4E2C5D434AD5BC23E68753C8C6A7 /* geometry.h */,
+				899BD27C177C77EA8E82EBBD940EDFBC /* hashmap.h */,
+				B3855172CD8BCB220104CBBDAFF27E44 /* histogram.h */,
+				D2CF87B68A6B445B4CA047344CA7DFDC /* identify.h */,
+				93BF90BFFFEDE5CAC126D4147EBA29CE /* image.h */,
+				D2EE40DCFC813D4C1314EB27E55DC87F /* image-view.h */,
+				B40CF1D5C369D015AB0EFC264A2867A5 /* ImageMagick.h */,
+				3237DEF141D0A328D52CD6883B891917 /* layer.h */,
+				A4A54D24877B51E1E8D55FBA941E882B /* list.h */,
+				F9895F094E21A9ADC1FF3D15FFA688C6 /* locale_.h */,
+				E163EF54C56A099E651DCA4FDDA35947 /* log.h */,
+				1B3C99DC0C1A26E03FE87A54CB60312D /* magic.h */,
+				C73D1DC77F01D14B4878F1B23E95FAF5 /* magick.h */,
+				AA530D86C06F40702858EDD27E72E156 /* magick-baseconfig.h */,
+				471A34E7F8C0E3DBE80C84B8AB81DA96 /* magick-config.h */,
+				FBCD941EA0A5CE473CB58D2EB29CABB8 /* magick-type.h */,
+				70966A8192F3B3C96456A780420A3C91 /* MagickCore.h */,
+				412581C2136C5FD8BE1C3039045A8F0F /* matrix.h */,
+				4F1619988B1FED455CD1BB9D5E128A1A /* memory_.h */,
+				F44B7AEA991A4F26C1AFC4F2FBEE42BA /* method-attribute.h */,
+				8755870CDB7AD8E853C8AFD062A2EB07 /* methods.h */,
+				2A41FE3EFA9FF53ED7BD03B7D12A9108 /* mime.h */,
+				B721A85BFE8EEA5A378AE90E9B6C1D7F /* module.h */,
+				DFAF58F61EFC384ADCC4BCAC30A6712F /* monitor.h */,
+				251B964CFD771BF18C633FA4B099D358 /* montage.h */,
+				82C2FB028410C5117FA08F39595D5390 /* morphology.h */,
+				B44AF2948E590528841A9757B0A53383 /* opencl.h */,
+				1C10CBC43CDD2ACD30FCBF5C93D48B61 /* option.h */,
+				3331C8A2EB057CCE6780AAC7262C3BDE /* paint.h */,
+				0D7D4AA701A53D94577C3F5BA2AC55FB /* pixel.h */,
+				B13D7AC682A621926F4EE9DCD21AAA72 /* pixel-accessor.h */,
+				12FDFAD240447A419EF9DB0B9829D30F /* policy.h */,
+				3FECDEA1630CAA7DA8FFEF872AABEF0B /* prepress.h */,
+				3A10DD73044F6E85C191EDB2584D53F1 /* PreRvIcccm.h */,
+				5454B773CE145291977B8392342C64E0 /* profile.h */,
+				1922115A517C07585BF4A76C1D250D9F /* property.h */,
+				214FA861EBF742B62EC4D2670760CE17 /* quantize.h */,
+				96FE9E2F9585DD7F5ACCDFC1E44A2E58 /* quantum.h */,
+				1E5406C657D715AD3FA9F71A60388ECA /* random_.h */,
+				1986D8BDB065ABDFA55BE0D0E7B4F0BA /* registry.h */,
+				1DAF8A94FC0CCC67189B2E08B4DE55D1 /* resample.h */,
+				85261682587AB090701F0DB2694D36B8 /* resize.h */,
+				A402192684E1DEE6135CAD7D2BC41584 /* resource_.h */,
+				FDD1A294C20261F857C47DD29DC709C2 /* segment.h */,
+				B53FF542D9F011C85B1455E4C174D693 /* semaphore.h */,
+				FA4EDBC5C0454462900966A007E9A758 /* shear.h */,
+				22A99CC68234C0EB0F8850C020DFCB48 /* signature.h */,
+				2F7FF32C6D5FA7B6EC5FA55BEEF326CC /* splay-tree.h */,
+				C6E057229C41CF6A2475381CA5C074F0 /* statistic.h */,
+				572136C54EE73553DEC6A23256776AE8 /* stream.h */,
+				A2089FC00F984EB2FAE86DD82C79126B /* string_.h */,
+				6BF7BC98FD5DF4717BCF81B4DABE7B6B /* studio.h */,
+				17571E90CE8469D6E16ECE7F48818AFD /* threshold.h */,
+				C29B6156C42BAAE7860BB502481A586B /* timer.h */,
+				76065F364DDE2ADD5E1F174F4A3C1631 /* token.h */,
+				E9EB0951DC205110A8880AFF1C07E34F /* transform.h */,
+				455E06D5E297E76D31A583981C421900 /* type.h */,
+				5E56823875AD465CAE7A5CD9BE4FF7FD /* utility.h */,
+				4AA262B96E5045840BD8013517FD0CCF /* version.h */,
+				E2D3E7BBD3BBB8AFA205CBC3341DA285 /* widget.h */,
+				18E667FB4DD4AD4F3D745AEBA958DFA1 /* xml-tree.h */,
+				02DF96D12A5B77CEFB34C5F9CDF3B65B /* xwindow.h */,
+				C0E1CA32A926E64DFB785EDEE8AE35B5 /* jpeg */,
+				18356F8673350CA3736DF1F72FCEC3F3 /* png */,
+				61ACBAC9D2E96AC048281AFA752BE75C /* tiff */,
+				6BF5F08CB56DD51FF6CB900D366943FF /* wand */,
+			);
+			path = ImageMagick;
+			sourceTree = "<group>";
+		};
+		18356F8673350CA3736DF1F72FCEC3F3 /* png */ = {
+			isa = PBXGroup;
+			children = (
+				FE8DBBD943150A4C2DD4D7D23C345903 /* png.h */,
+				3BE39EB08AC521A3F14AD23F3202F67D /* pngconf.h */,
+				5F0C9A359D77F87B511D9B7E32CD30A4 /* pnglibconf.h */,
+			);
+			name = png;
+			sourceTree = "<group>";
+		};
+		1F0B9F713A13B4F29BE0C0E7483B187B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFDCEDF11CC5329E8A2F6885DA7FBE21 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2253311FD5AF79E26BE351C6A268C7CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E17644BE9D1C0580BE38A3A5E0DFB97 /* ImageMagick */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61ACBAC9D2E96AC048281AFA752BE75C /* tiff */ = {
+			isa = PBXGroup;
+			children = (
+				60E0C1D550E307C8E2AF9DD56978DF00 /* tiff.h */,
+				55CE329C1893281D56C97DA7B8DDE9AB /* tiffconf.h */,
+				8B965972029DB9FC017784CFAEA0E4A6 /* tiffio.h */,
+				4994AD4E49BBA5CD94B363123FD46786 /* tiffvers.h */,
+			);
+			name = tiff;
+			sourceTree = "<group>";
+		};
+		6BF5F08CB56DD51FF6CB900D366943FF /* wand */ = {
+			isa = PBXGroup;
+			children = (
+				C8422C5D05ED23C70483847AF58D6F79 /* animate.h */,
+				17F8180D05170EF5536CC7253A23587A /* compare.h */,
+				13A9FE6D73E15969C2678C356949D6F9 /* composite.h */,
+				A351C90768AF53C012CBCB92076FB43C /* conjure.h */,
+				6EFDEC2448F953286C3FD1AC8980519A /* convert.h */,
+				CE93969098D315E067777801B946A282 /* deprecate.h */,
+				BDFAE8CCC3E6A276F01E8710F38EF4ED /* display.h */,
+				47CB066E0C6151C5AF8E4DE7FF2DDA5F /* drawing-wand.h */,
+				58B3099CDEC6963FCADA9570F060F0AA /* identify.h */,
+				ABBF6029BCEBC92BCA762C560D84FC4B /* import.h */,
+				54487530F43A5F8D13348475C8C506F5 /* magick-image.h */,
+				DB2C72D26D440F3055FA20F2BCAA252D /* magick-property.h */,
+				D7F357D8230FCD9796762D6B3C1D1655 /* magick-wand.h */,
+				12F26884E4F1FF60C6BF1E2B3F2AC766 /* magick_wand.h */,
+				982B64A4330760E311E77A6A8B049B53 /* MagickWand.h */,
+				7CC1034123045ADC1D00A3E82C45ED7A /* method-attribute.h */,
+				02F83F1D6A0D8597387B82013CEB527A /* mogrify.h */,
+				75F7D13A9F1B3F7FB6591BC7685A0193 /* montage.h */,
+				50A543ADAE388B23DD1D10F2A9044F48 /* pixel-iterator.h */,
+				0816DEFB800C6A38FE81F4D13B4D776C /* pixel-wand.h */,
+				D86AA7F550EAA0F895A059631B3CDBB9 /* stream.h */,
+				B3A976252CF24AE57E5A16C547D3DE18 /* wand-view.h */,
+			);
+			name = wand;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2253311FD5AF79E26BE351C6A268C7CA /* Pods */,
+				1F0B9F713A13B4F29BE0C0E7483B187B /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C0E1CA32A926E64DFB785EDEE8AE35B5 /* jpeg */ = {
+			isa = PBXGroup;
+			children = (
+				8772C1CD8AC0B7F85C7211D08457423D /* jconfig.h */,
+				008262BB9FC296B4517CA9BD8736C44D /* jerror.h */,
+				C68CD10C25CBBEEE64721DC2FCB14F1A /* jmorecfg.h */,
+				DFC7A9EFEEE00F47F5B829F271E2D1F3 /* jpeglib.h */,
+			);
+			name = jpeg;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1469924FC52F60B0068FA24EEFCB3EFC /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C358AA8BB91700063133597D41C4E0E /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				60DB2522D6809309FA2F3B04848E7536 /* Sources */,
+				2E78C4AC537A1782BCFD134B2B8940E0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = BFDCEDF11CC5329E8A2F6885DA7FBE21 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1F0B9F713A13B4F29BE0C0E7483B187B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1469924FC52F60B0068FA24EEFCB3EFC /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60DB2522D6809309FA2F3B04848E7536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B991A49F4C12A4F8462C02B69D83DB11 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9363FDCEFF6FF4016ABE0851CB23AA08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AB7CD0B68DB4DAD932980E77947F8F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C358AA8BB91700063133597D41C4E0E /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9363FDCEFF6FF4016ABE0851CB23AA08 /* Debug */,
+				AB7CD0B68DB4DAD932980E77947F8F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

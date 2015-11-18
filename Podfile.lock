@@ -1,0 +1,18 @@
+PODS:
+  - ImageMagick (6.8.8-9):
+    - ImageMagick/jpeg (= 6.8.8-9)
+    - ImageMagick/png (= 6.8.8-9)
+    - ImageMagick/tiff (= 6.8.8-9)
+    - ImageMagick/wand (= 6.8.8-9)
+  - ImageMagick/jpeg (6.8.8-9)
+  - ImageMagick/png (6.8.8-9)
+  - ImageMagick/tiff (6.8.8-9)
+  - ImageMagick/wand (6.8.8-9)
+
+DEPENDENCIES:
+  - ImageMagick (~> 6.8.8-9)
+
+SPEC CHECKSUMS:
+  ImageMagick: e8c089d133679d505c98dc97f3dc5be0e706e1df
+
+COCOAPODS: 0.39.0
